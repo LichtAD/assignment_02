@@ -18,6 +18,17 @@ body{
     margin: 5rem auto;
 }
 
+.btn_join{
+    width: 200px;
+    height: 50px;
+    background-color: #d83016;
+    font-family: "Inter";
+    border: none;
+    border-radius: 3rem;
+    font-size: 17px;
+    font-weight: 500;
+}
+
 /* navbar starts */
 
 .nav_bar{
@@ -43,14 +54,148 @@ body{
     gap: 80px;
 }
 
+.nav_options p{
+    color: rgba(255, 255, 255, 0.8);
+}
+
 .nav_home{
     background-color: #d83016;
     height: 40px;
     width: 90px;
     border: none;
-    border-radius: 2rem;
+    border-radius: 3rem;
     font-size: 16px;
     font-family: "Inter";
+    color: rgba(255, 255, 255, 0.8);
 }
 
 /* navbar ends */
+
+/* banner starts */
+
+.banner_container{
+    /* border: 2px solid aqua; */
+    display: flex;
+}
+
+.banner_content{
+    /* border: 2px solid antiquewhite; */
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.banner_h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.banner_p{
+    margin: 28px 0;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.btn_download{
+    margin-left: 20px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.banner_img{
+    /* border: 2px solid yellow; */
+    width: 50%;
+
+    /* background-image: url('./images/Images2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    position: relative;
+}
+
+.down_color_full_box{
+    /* border: 2px solid aliceblue; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    /* width: 150px; */
+    border-radius: 1rem;
+    backdrop-filter: blur(15px);
+
+    position: absolute;
+    top: 60%;
+    left: -10%;
+
+    background-color: transparent;
+    box-shadow: 
+    0 4px 8px rgba(255, 255, 255, 0.1),
+    0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.red_circle{
+    background: red;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.down_box{
+    /* border: 2px solid aqua; */
+    height: 80px;
+    width: 120px;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    background-color: transparent;
+}
+
+.down_box h3, .down_box p{
+    background-color: transparent;
+}
+
+.upper_box{
+    /* border: 2px solid aqua; */
+    height: 80px;
+    width: 150px;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: absolute;
+    top: 25%;
+    left: 35%;
+
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+
+    box-shadow: 
+    0 4px 8px rgba(255, 255, 255, 0.1),
+    0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.upper_box h3{
+    font-size: 40px;
+    background-color: transparent;
+}
+
+.upper_box p{
+    text-align: center;
+    font-size: x-small;
+    background-color: transparent;
+}
+
+/* banner ends */
