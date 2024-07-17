@@ -211,12 +211,12 @@ body {
     flex-direction: column;
 }
 
-.change_habits > h1{
+.change_habits>h1 {
     font-size: 30px;
     font-weight: 900;
 }
 
-.change_habits > p{
+.change_habits>p {
     margin: 30px 0;
     text-align: center;
     font-size: small;
@@ -245,18 +245,72 @@ body {
     height: 274px;
 }
 
-.habits_card1 img{
+.habits_card1 img {
     border-radius: 50%;
 }
 
-.habits_card1 h5{
+.habits_card1 h5 {
     color: rgba(255, 255, 255, 0.8);
     margin: 20px 0;
 }
 
-.habits_card1 p{
+.habits_card1 p {
     color: rgba(255, 255, 255, 0.5);
     font-size: small;
 }
 
 /* change_habits ends */
+
+/* extra mile starts */
+
+.extra_mile {
+    /* border: 2px solid aliceblue; */
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.extra_mile_content {
+    /* border: 2px solid plum; */
+    border-radius: 1rem 0 0 1rem;
+    padding: 40px;
+    width: 40%;
+    background-color: #222222;
+}
+
+.extra_mile_content h1 {
+    font-weight: 900;
+    font-size: 40px;
+    background-color: #222222;
+}
+
+.extra_mile_content p {
+    /* font-weight: 900; */
+    font-size: small;
+    margin: 20px 0;
+    background-color: #222222;
+}
+
+.extra_mile_img_div {
+    /* border: 2px solid yellow; */
+    padding: 20px;
+    width: 50%;
+    /* margin-left: 180px; */
+    background-color: #222222;
+    border-radius: 0 1rem 1rem 0;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.extra_mile_img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    right: 20%;
+    transform: scale(1.5);
+}
+
+/* extra mile ends */
