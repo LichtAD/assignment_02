@@ -96,9 +96,9 @@ body {
 }
 
 .banner_p {
+    /* border: 2px solid yellow; */
     margin: 28px 0;
-    margin-bottom: 2rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .btn_download {
@@ -296,7 +296,7 @@ body {
 .extra_mile_img_div {
     /* border: 2px solid yellow; */
     padding: 20px;
-    width: 25%;
+    width: 50%;
     /* margin-left: 180px; */
     background-color: #222222;
     border-radius: 0 1rem 1rem 0;
@@ -323,14 +323,15 @@ body {
 }
 
 .bmi p {
-    margin-bottom: 5rem;
+    margin-top: 2rem;
 }
 
 /* -------------------------------------- */
 
 .bmi_table_container {
     /* border: 2px solid yellow; */
-    width: 100%;
+    /* width: 100%; */
+    border-radius: 1rem;
     background-color: #222222;
     padding: 50px 0;
     display: flex;
@@ -391,7 +392,7 @@ td {
     /* width: 100%; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
     background-color: #222222;
     /* border: 2px solid sandybrown; */
     height: 50px;
@@ -414,12 +415,13 @@ td {
     /* width: 100%; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
     background-color: #222222;
     height: 50px;
 }
 
-.inp_age_sex input, select {
+.inp_age_sex input,
+select {
     background-color: rgba(128, 128, 128, 0.353);
     padding-left: 15px;
     border-radius: 8px;
@@ -437,20 +439,20 @@ td {
 
 /* meet team start */
 
-.meet_team > h1{
+.meet_team>h1 {
     font-weight: 800;
     font-size: 30px;
     text-align: center;
 }
 
-.meet_team > p{
+.meet_team>p {
     font-size: small;
     text-align: center;
     margin-top: 16px;
     opacity: 0.5;
 }
 
-.grid_container{
+.grid_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
@@ -458,14 +460,17 @@ td {
     padding: 16px;
     border-radius: 16px;
     background-color: rgba(128, 128, 128, 0.353);
+    /* background: none !important; */
+    width: calc(90% - 16px);
 }
 
-.grid_container div{
+.grid_container div {
     border-radius: 16px;
     background-color: rgba(128, 128, 128, 0.353);
+    background: none;
 }
 
-.grid_container img{
+.grid_container img {
     width: 100%;
     border-radius: 16px;
     /* border: 1px solid yellowgreen; */
@@ -476,11 +481,11 @@ td {
     object-position: center;
 }
 
-.div_trainer1{
+.div_trainer1 {
     position: relative;
 }
 
-.trainer_info{
+.trainer_info {
     position: absolute;
     left: 5%;
     bottom: 5%;
@@ -488,7 +493,8 @@ td {
     background: none !important;
 }
 
-.trainer_info h4, p{
+.trainer_info h4,
+p {
     background-color: transparent;
 }
 
@@ -496,14 +502,14 @@ td {
 
 /* footer starts */
 
-.footer_container{
+.footer_container {
     /* border: 2px solid aquamarine; */
     width: 100%;
     background-color: rgba(128, 128, 128, 0.353);
     /* height: 300px; */
 }
 
-.footer_upper{
+.footer_upper {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -512,24 +518,24 @@ td {
 }
 
 .footer_left,
-.footer_middle, 
-.footer_right{
+.footer_middle,
+.footer_right {
     background: none;
 }
 
 .footer_left h1,
-.footer_middle h1, 
-.footer_right h1{
+.footer_middle h1,
+.footer_right h1 {
     background: none;
 }
 
 .footer_left p,
-.footer_middle p, 
-.footer_right p{
+.footer_middle p,
+.footer_right p {
     margin: 20px 0;
 }
 
-.right_reserved{
+.right_reserved {
     /* border: 2px solid antiquewhite; */
     text-align: center;
     padding: 20px;
