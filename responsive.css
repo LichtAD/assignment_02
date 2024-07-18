@@ -82,8 +82,10 @@
         background: none;
     }
 
+    .inp_height_weight,
+    .inp_age_sex,
     .inp_activity_factor {
-        width: 96%;
+        width: 95%;
     }
 
     .meet_team br {

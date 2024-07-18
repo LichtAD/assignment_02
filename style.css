@@ -264,54 +264,56 @@ body {
 
 /* extra mile starts */
 
-.extra_mile {
+.extra_mile{
     /* border: 2px solid aliceblue; */
-
+    border-radius: 16px;
     display: flex;
-    justify-content: center;
-    /* align-items: center; */
-}
-
-.extra_mile_content {
-    /* border: 2px solid plum; */
-    border-radius: 1rem 0 0 1rem;
-    padding: 40px;
-    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
     background-color: #222222;
 }
 
-.extra_mile_content h1 {
+.extra_mile_content{
+    background-color: #222222;
+    padding-left: 50px;
+}
+
+.extra_mile_content h1{
+    background-color: #222222;
     font-weight: 900;
     font-size: 40px;
-    background-color: #222222;
 }
 
-.extra_mile_content p {
-    /* font-weight: 900; */
+.extra_mile_content p{
     font-size: small;
     margin: 20px 0;
     background-color: #222222;
+    line-height: 25px;
+    opacity: 0.5;
 }
 
-.extra_mile_img_div {
-    /* border: 2px solid yellow; */
-    padding: 20px;
-    width: 50%;
-    /* margin-left: 180px; */
+.btn_extra_mile{
     background-color: #222222;
-    border-radius: 0 1rem 1rem 0;
 
-    position: relative;
-    overflow: hidden;
 }
 
-.extra_mile_img {
+.extra_mile_img_div{
+    /* border: 2px solid palegreen; */
+    width: 500px;
+    /* height: 250px; */
+    /* border-radius: 100%; */
+    /* overflow: hidden; */
+    /* padding: 30px; */
+    background: none;
+}
+
+.extra_mile_img_div img{
+    /* border: 2px solid yellow; */
     width: 100%;
-    height: auto;
-    position: absolute;
-    top: 20px;
-    right: 20%;
-    transform: scale(1.5);
+    border-radius: 16px;
+    /* height: 100%; */
+    /* object-fit: cover; */
 }
 
 /* extra mile ends */
@@ -367,7 +369,7 @@ td {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 
 }
@@ -390,13 +392,12 @@ td {
 
 .inp_height_weight {
     /* width: 100%; */
+    /* border: 2px solid sandybrown; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     background-color: #222222;
-    /* border: 2px solid sandybrown; */
     height: 50px;
-
 }
 
 ::placeholder {
