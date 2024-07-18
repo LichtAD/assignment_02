@@ -83,7 +83,8 @@ body {
     width: 50%;
 
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    margin-top: 50px;
     align-items: flex-start;
     flex-direction: column;
 }
@@ -295,7 +296,7 @@ body {
 .extra_mile_img_div {
     /* border: 2px solid yellow; */
     padding: 20px;
-    width: 50%;
+    width: 25%;
     /* margin-left: 180px; */
     background-color: #222222;
     border-radius: 0 1rem 1rem 0;
@@ -314,3 +315,224 @@ body {
 }
 
 /* extra mile ends */
+
+/* bmi starts */
+
+.bmi {
+    text-align: center;
+}
+
+.bmi p {
+    margin-bottom: 5rem;
+}
+
+/* -------------------------------------- */
+
+.bmi_table_container {
+    /* border: 2px solid yellow; */
+    width: 100%;
+    background-color: #222222;
+    padding: 50px 0;
+    display: flex;
+    gap: 10%;
+
+    /* color: white; */
+    opacity: 0.8;
+}
+
+.bmi_calc_1 h1 {
+    background-color: #222222;
+    margin-bottom: 3rem;
+}
+
+.bmi_calc_1 table,
+.bmi_calc_1 th,
+.bmi_calc_1 td {
+    background-color: #222222;
+}
+
+.bmi_calc_1 table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+.bmi_calc_1 {
+    /* border: 2px solid springgreen; */
+    width: 30%;
+    background-color: #222222;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bmi_calc_2 {
+    /* border: 2px solid salmon; */
+    width: 50%;
+    background-color: #222222;
+}
+
+.bmi_calc_2 h1 {
+    background-color: #222222;
+}
+
+.bmi_calc_2 p {
+    margin: 10px 0;
+    background-color: #222222;
+    margin: 16px 0;
+}
+
+.inp_height_weight {
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: #222222;
+    /* border: 2px solid sandybrown; */
+    height: 50px;
+
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.inp_height_weight input {
+    background-color: rgba(128, 128, 128, 0.353);
+    padding-left: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.inp_age_sex {
+    margin: 10px 0;
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: #222222;
+    height: 50px;
+}
+
+.inp_age_sex input, select {
+    background-color: rgba(128, 128, 128, 0.353);
+    padding-left: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.inp_activity_factor {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.353);
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* bmi ends */
+
+/* meet team start */
+
+.meet_team > h1{
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+
+.meet_team > p{
+    font-size: small;
+    text-align: center;
+    margin-top: 16px;
+    opacity: 0.5;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    /* border: 2px solid aliceblue; */
+    padding: 16px;
+    border-radius: 16px;
+    background-color: rgba(128, 128, 128, 0.353);
+}
+
+.grid_container div{
+    border-radius: 16px;
+    background-color: rgba(128, 128, 128, 0.353);
+}
+
+.grid_container img{
+    width: 100%;
+    border-radius: 16px;
+    /* border: 1px solid yellowgreen; */
+    background-color: rgba(128, 128, 128, 0.353);
+    /* aspect-ratio: 1 / 1; */
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.div_trainer1{
+    position: relative;
+}
+
+.trainer_info{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    /* background-color: transparent; */
+    background: none !important;
+}
+
+.trainer_info h4, p{
+    background-color: transparent;
+}
+
+/* meet team end */
+
+/* footer starts */
+
+.footer_container{
+    /* border: 2px solid aquamarine; */
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.353);
+    /* height: 300px; */
+}
+
+.footer_upper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(27, 27, 27);
+}
+
+.footer_left,
+.footer_middle, 
+.footer_right{
+    background: none;
+}
+
+.footer_left h1,
+.footer_middle h1, 
+.footer_right h1{
+    background: none;
+}
+
+.footer_left p,
+.footer_middle p, 
+.footer_right p{
+    margin: 20px 0;
+}
+
+.right_reserved{
+    /* border: 2px solid antiquewhite; */
+    text-align: center;
+    padding: 20px;
+}
+
+/* footer ends */
