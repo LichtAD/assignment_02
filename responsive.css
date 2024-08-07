@@ -25,6 +25,12 @@
         margin-bottom: 1rem;
     }
 
+    #shape_text {
+        font-size: 50px;
+        /* font-weight: 400; */
+        letter-spacing: normal;
+    }
+
     .banner_p {
         font-size: 15px;
         width: 130%;
@@ -96,7 +102,7 @@
         display: none;
     }
 
-    .meet_team>p{
+    .meet_team>p {
         padding: 0 60px;
     }
 
@@ -104,33 +110,45 @@
         grid-template-columns: 1fr;
         width: 80%;
     }
-    .footer_upper{
+
+    .footer_upper {
         padding: 10px;
         flex-direction: column;
         align-items: flex-start;
     }
-    .footer_left br{
+
+    .footer_left br {
         display: none;
     }
-    .extra_mile_container{
+
+    .extra_mile_container {
         flex-direction: column;
         /* justify-content: flex-start; */
         /* align-items: flex-start; */
         width: 75%;
     }
-    .extra_mile_content{
+
+    .extra_mile_content {
         width: 100%;
         padding-left: 0;
     }
-    .extra_mile_content br{
+
+    .extra_mile_content br {
         display: none;
     }
-    .extra_mile_img_div{
+
+    .extra_mile_img_div {
         width: 100%;
     }
-    .btn_extra_mile{
+
+    .extra_mile_img_div img {
+        object-fit: contain;
+    }
+
+    .btn_extra_mile {
         margin-bottom: 32px;
     }
+
     .btn_extra_mile button {
         width: 100%;
         height: 50px;

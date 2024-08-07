@@ -43,6 +43,7 @@ body {
 .nav_h2 {
     color: #d83016;
     font-style: italic;
+    font-size: xx-large;
 }
 
 .hamburger {
@@ -311,11 +312,12 @@ body {
 
 .extra_mile_img_div{
     /* border: 2px solid palegreen; */
-    width: 500px;
     /* height: 250px; */
     /* border-radius: 100%; */
     /* overflow: hidden; */
     /* padding: 30px; */
+    
+    width: 500px;
     background: none;
 }
 
@@ -325,6 +327,9 @@ body {
     border-radius: 16px;
     /* height: 100%; */
     /* object-fit: cover; */
+
+    object-fit: none;
+    object-position: 66% 33%;
 }
 
 /* extra mile ends */
