@@ -155,4 +155,14 @@
         font-size: 12px;
         font-size: 20px;
     }
+
+    .challenge_container{
+        width: 65%;
+    }
+
+    .num_container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
 }

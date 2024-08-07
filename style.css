@@ -11,6 +11,7 @@ body {
     margin: 0;
     background-color: black;
     color: white;
+    /* box-sizing: border-box; */
 }
 
 .container {
@@ -98,7 +99,7 @@ body {
     margin-bottom: 2rem;
 }
 
-#shape_text{
+#shape_text {
     font-family: "Miama", sans-serif;
     font-size: 80px;
     font-weight: 400;
@@ -274,7 +275,7 @@ body {
 
 /* extra mile starts */
 
-.extra_mile_container{
+.extra_mile_container {
     /* border: 2px solid aliceblue; */
     border-radius: 16px;
     display: flex;
@@ -282,22 +283,23 @@ body {
     align-items: center;
     padding: 30px;
     background-color: #222222;
-    width: 70%;
+    /* width: 70%; */
+    width: 87%;
     /* ! important */
 }
 
-.extra_mile_content{
+.extra_mile_content {
     background-color: #222222;
     padding-left: 50px;
 }
 
-.extra_mile_content h1{
+.extra_mile_content h1 {
     background-color: #222222;
     font-weight: 900;
     font-size: 40px;
 }
 
-.extra_mile_content p{
+.extra_mile_content p {
     font-size: small;
     margin: 20px 0;
     background-color: #222222;
@@ -305,23 +307,23 @@ body {
     opacity: 0.5;
 }
 
-.btn_extra_mile{
+.btn_extra_mile {
     background-color: #222222;
 
 }
 
-.extra_mile_img_div{
+.extra_mile_img_div {
     /* border: 2px solid palegreen; */
     /* height: 250px; */
     /* border-radius: 100%; */
     /* overflow: hidden; */
     /* padding: 30px; */
-    
+
     width: 500px;
     background: none;
 }
 
-.extra_mile_img_div img{
+.extra_mile_img_div img {
     /* border: 2px solid yellow; */
     width: 100%;
     border-radius: 16px;
@@ -341,7 +343,7 @@ body {
     margin-left: 12rem;
 }
 
-.bmi h1{
+.bmi h1 {
     font-size: 40px;
     font-weight: 800;
 }
@@ -561,7 +563,7 @@ p {
     background: none;
 }
 
-.footer_left h1{
+.footer_left h1 {
     font-size: 4rem;
     font-weight: 700;
 }
@@ -572,14 +574,15 @@ p {
     margin: 20px 0;
 }
 
-.footer_left p{
+.footer_left p {
     opacity: 0.5;
     line-height: 25px;
 }
 
 .footer_middle p,
 .footer_right p {
-    opacity: 0.5;;
+    opacity: 0.5;
+    ;
 }
 
 .right_reserved {
@@ -593,3 +596,87 @@ p {
 }
 
 /* footer ends */
+
+/* challenge part starts */
+
+.challenge_container {
+    /* border: 2px solid red; */
+    /* width: calc(90% - 50px); */
+    width: 85%;
+    padding: 50px;
+    border-radius: 1rem;
+
+    /* background-color: #222222; */
+    background-image: url('images/challenge/challenge_bg_4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    /* backdrop-filter: blur(5px); */
+    /* filter: brightness(70%); */
+}
+
+.challenge_container>h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    background: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.num_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    text-align: center;
+    background: none;
+}
+
+.num_1,
+.num_1 img,
+.num_1 h2,
+.num_1 p {
+    background: none;
+}
+
+.num_2,
+.num_2 img,
+.num_2 h2,
+.num_2 p {
+    background: none;
+}
+
+.num_3,
+.num_3 img,
+.num_3 h2,
+.num_3 p {
+    background: none;
+}
+
+.num_4,
+.num_4 img,
+.num_4 h2,
+.num_4 p {
+    background: none;
+}
+
+.num_1 img {
+    transform: scale(2);
+    margin-bottom: 30px;
+}
+.num_2 img {
+    transform: scale(1.5);
+    margin-bottom: 19px;
+}
+.num_3 img {
+    transform: scale(1.8);
+    margin-bottom: 20px;
+}
+.num_4 img {
+    transform: scale(1.5);
+    margin-bottom: 30px;
+}
+
+/* challenge part ends */
