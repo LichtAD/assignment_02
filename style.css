@@ -421,7 +421,9 @@ td {
 }
 
 .inp_height_weight {
+
     /* width: 100%; */
+    
     /* border: 2px solid sandybrown; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -435,6 +437,9 @@ td {
 }
 
 .inp_height_weight input {
+    
+    /* width: 100%; */
+
     background-color: rgba(128, 128, 128, 0.353);
     padding-left: 15px;
     border-radius: 8px;
