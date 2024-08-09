@@ -156,13 +156,22 @@
         font-size: 20px;
     }
 
-    .challenge_container{
+    .challenge_container {
         width: 65%;
     }
 
-    .num_container{
+    .num_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
     }
+
+
+    .inp_height_weight input,
+    .inp_age_sex input,
+    select {
+        font-size: 0.7em;
+    }
+
+
 }
